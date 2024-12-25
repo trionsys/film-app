@@ -139,6 +139,8 @@ header {
 .kart img{
     border-radius: 10px;
     position: absolute;
+    max-width: 339.39px;
+    width: 100%;
 }
 
 .film-genre{
@@ -796,6 +798,11 @@ input[type="checkbox"]{
 *{
     /* border: 1px solid yellow; */
 }
+
 @media(max-width: 1420px){
+.kart img{
+    width: 202.29px;
+    height: 286.43px;
+}
 
 }
