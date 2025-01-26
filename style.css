@@ -22,8 +22,7 @@
 }
 
 body {
-    background: rgba(30, 37, 56, 1);
-
+    background: rgba(30, 37, 56, 1);    
 }
 
 header {
@@ -195,6 +194,8 @@ header {
 
 .kart img{
     transition: 0.2s;
+    max-width: 339px;
+    width: 100%;
 }
 
 .kart-of-film{
@@ -318,7 +319,8 @@ header {
 .kartochka img{
     border-radius: 10px;
     height: 252px;
-    width: 342.35px;
+    max-width: 342.35px;
+    width: 100%;
 }
 
 .kartochka{
@@ -364,6 +366,8 @@ header {
 
 .kart3 img{
     border-radius: 10px;
+    max-width: 444px;
+    width: 100%;
 }
 
 .kart3{
@@ -500,6 +504,17 @@ header {
     border-radius: 10px;
 }
 
+.kart-big1 img {
+    max-width: 1159px;
+    width: 100%;
+}
+
+.kart-small img {
+    max-width: 254px;
+    width: 100%;
+
+}
+
 .kart-big1{
     width: 80%;
     margin-right: 16px;
@@ -583,6 +598,10 @@ header {
     top: 20px;
 }
 
+.swiper-scrollbar.swiper-scrollbar-horizontal{bottom: 0; height: 40px;}
+.swiper-scrollbar-drag{background: none;}
+.swiper-scrollbar-drag:after{content: ""; width: 40px; height: 40px; border-radius: 50%; background: blue; position: absolute; top: 0; left: 50%; margin: 0 0 0 -20px;}
+
 footer{
     background: #151526;
     padding-top: 49px;
@@ -590,8 +609,8 @@ footer{
 
 .wanting-innovations-header{
     margin-bottom: 70px;
+    
 }
-
 .kart4 .film-name{
     margin-top: -70px;
 }
@@ -701,14 +720,17 @@ input[type = "email"]{
     height: 71px;
     border-radius: 10px;
     border: 0;
-    margin-right: 8px;
+    padding-left: 30px;
+}
+
+input[type = "email"]{
+    outline: none;
 }
 
 input[type = "email"]::placeholder{
     font-size: 17px;
     font-weight: 400;
     line-height: 28.31px;
-    left: 27px;
     position: relative;
 }
 
@@ -716,6 +738,7 @@ input[type = "submit"]{
     width: 182px;
     height: 71px;
     border-radius: 10px;
+    margin-left: 10px;
     background: #f2f60f;
     color: black;
     border: 0;
@@ -806,3 +829,35 @@ input[type="checkbox"]{
 }
 
 }
+
+/* Для экранов с шириной до 768px */
+@media (max-width: 768px) {
+    .wanting-innovations-header {
+      flex-direction: column;
+    }
+    .wanting-innovations-header h2 {
+      font-size: 24px;
+    }
+    .kart4 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .kart4 img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Для экранов с шириной до 480px */
+  @media (max-width: 480px) {
+    .wanting-innovations-header h2 {
+      font-size: 18px;
+    }
+    .kart4 {
+      margin-bottom: 10px;
+    }
+    .kart4 img {
+      width: 100%;
+      height: auto;
+    }
+  }
