@@ -22,7 +22,7 @@
 }
 
 body {
-    background: rgba(30, 37, 56, 1);    
+    background: rgba(30, 37, 56, 1);
 }
 
 header {
@@ -54,18 +54,18 @@ header {
 
 }
 
-.header-logo{
+.header-logo {
     display: flex;
     flex-direction: column;
     cursor: pointer;
 }
 
-.header-auth{
+.header-auth {
     display: flex;
     align-items: center;
 }
 
-.header-search{
+.header-search {
     padding: 10px 21px;
     border: 1px solid rgba(255, 255, 255, 1);
     background: rgba(255, 255, 255, 1);
@@ -79,7 +79,7 @@ header {
     cursor: pointer;
 }
 
-.header-login{
+.header-login {
     background: rgba(54, 87, 203, 1);
     border-radius: 10px;
     line-height: 26.64px;
@@ -91,11 +91,11 @@ header {
     align-items: center;
 }
 
-.header-login:hover{
+.header-login:hover {
     box-shadow: 0px 0px 15px 0px rgba(72, 113, 255, 0.8);
 }
 
-.title{
+.title {
     font-family: Qanelas;
     font-size: 65px;
     font-weight: 900;
@@ -103,52 +103,54 @@ header {
     color: #FFFFFF;
 }
 
-.now-kino-header hr, .popular-films hr, .kass-sbory-header hr{
+.now-kino-header hr,
+.popular-films hr,
+.kass-sbory-header hr {
     width: 51.5px;
     height: 0px;
 }
 
-.now-kino-main{
+.now-kino-main {
     height: 1105px;
     position: relative;
     overflow: hidden;
 }
 
-.header-nav{
+.header-nav {
     width: 48%;
 }
 
-.header-nav a{
+.header-nav a {
     opacity: 50%;
     transition: 0.2s;
 }
 
-.header-nav a:hover{
+.header-nav a:hover {
     opacity: 1;
 }
 
-.focus{
+.focus {
     opacity: 1 !important;
 }
 
-.now-kino{
+.now-kino {
     margin-top: 51px;
 }
 
-.kart img{
+.kart img {
     border-radius: 10px;
     position: absolute;
     max-width: 339.39px;
     width: 100%;
 }
 
-.film-genre{
+.film-genre {
     font-weight: 400;
     color: #F2F60F;
     margin-top: 4.1px !important;
 }
 
-.rating{
+.rating {
     position: relative;
     z-index: 1;
     left: 259px;
@@ -168,15 +170,15 @@ header {
     width: 100%;
 }
 
-.kart p{
+.kart p {
     text-align: left;
 }
 
-.kart-row-1{
+.kart-row-1 {
     height: 553px;
 }
 
-.now-kino-footer button{
+.now-kino-footer button {
     width: 200px;
     height: 71px;
     background: transparent;
@@ -188,17 +190,17 @@ header {
     margin-bottom: 54px;
 }
 
-.kart:hover img{
+.kart:hover img {
     opacity: 65%;
 }
 
-.kart img{
+.kart img {
     transition: 0.2s;
     max-width: 339px;
     width: 100%;
 }
 
-.kart-of-film{
+.kart-of-film {
     position: relative;
     width: 224px;
     height: 71px;
@@ -214,7 +216,7 @@ header {
     transition: 0.2s;
 }
 
-.kart-of-film p{
+.kart-of-film p {
     font-family: Qanelas;
     font-size: 18px;
     font-weight: 700;
@@ -222,30 +224,31 @@ header {
     color: #3657CB;
 }
 
-.kart:hover .kart-of-film{
+.kart:hover .kart-of-film {
     opacity: 1;
 }
 
-.film-name, .film-genre{
+.film-name,
+.film-genre {
     margin-top: 401px;
 }
 
-.all-trailers{
+.all-trailers {
     width: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.all-trailers a img{
+.all-trailers a img {
     padding-top: 7px;
 }
 
-.all-trailers-link{
+.all-trailers-link {
     font-size: 22px;
 }
 
-.video{
+.video {
     margin-top: 79px;
     max-width: 1430px;
     width: 100%;
@@ -254,20 +257,21 @@ header {
     border-radius: 10px;
 }
 
-.new-trailers-main h2{
+.new-trailers-main h2 {
     font-size: 45px;
     font-weight: 900;
     line-height: 57.33px;
 }
 
-.raznoe-about-film{
+.raznoe-about-film {
     margin-top: 26px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.like-img, .dislike-img{
+.like-img,
+.dislike-img {
     width: 58.87px;
     height: 58.87px;
     border-radius: 10px;
@@ -277,105 +281,105 @@ header {
     align-items: center;
 }
 
-.likes-and-dislikes{
+.likes-and-dislikes {
     width: 125.87px;
     text-align: center;
     cursor: pointer;
 }
 
-.likes-and-dislikes p{
+.likes-and-dislikes p {
     font-family: Qanelas;
     font-size: 15px;
     font-weight: 400;
     line-height: 17.85px;
-    margin-top: 8.13px;   
+    margin-top: 8.13px;
 }
 
-.name-and-share{
+.name-and-share {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.name-and-share img{
+.name-and-share img {
     margin-top: 5px;
     margin-left: 34px;
     cursor: pointer;
 }
 
-.swiper{
+.swiper {
     width: 100%;
     height: 300px;
 }
 
-.new-trailers-footer{
+.new-trailers-footer {
     margin-top: 43px;
 }
 
-.kart-row{
+.kart-row {
     margin-top: 23px;
 }
 
-.kartochka img{
+.kartochka img {
     border-radius: 10px;
     height: 252px;
     max-width: 342.35px;
     width: 100%;
 }
 
-.kartochka{
+.kartochka {
     height: 276px;
     width: 342.35px;
     cursor: pointer;
 }
 
-.kartochka p{
+.kartochka p {
     font-size: 20px;
     font-weight: 900;
     line-height: 25.48px;
     margin-top: 11px;
 }
 
-.popular-films-header{
+.popular-films-header {
     margin-top: 75px;
     margin-bottom: 63px;
 }
 
-.popular-films-footer{
+.popular-films-footer {
     margin-top: 109px;
     cursor: pointer;
 }
 
-.popular-films-footer{
+.popular-films-footer {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.unique-styles1{
+.unique-styles1 {
     width: 35%;
 }
 
-.unique-styles2{
+.unique-styles2 {
     width: 295px;
 }
 
-.popular-ludi-header{
+.popular-ludi-header {
     margin: 65px 0 63px 0;
 }
 
-.kart3 img{
+.kart3 img {
     border-radius: 10px;
     max-width: 444px;
     width: 100%;
 }
 
-.kart3{
+.kart3 {
     position: relative;
     line-height: 0;
 }
 
-.kart3:after{
+.kart3:after {
     content: "";
     display: block;
     width: 444px;
@@ -389,7 +393,7 @@ header {
     z-index: 0;
 }
 
-.place p{
+.place p {
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
@@ -398,7 +402,7 @@ header {
     margin: 12px 0 301px 16px;
 }
 
-.age{
+.age {
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
@@ -407,14 +411,14 @@ header {
     margin-top: 9.2px;
 }
 
-.name-person{
+.name-person {
     font-size: 27px;
     font-weight: 700;
     line-height: 33.45px;
     position: relative;
 }
 
-.translit-name-person{
+.translit-name-person {
     font-size: 20px;
     font-weight: 600;
     line-height: 24.46px;
@@ -422,25 +426,25 @@ header {
     position: relative;
 }
 
-.popular-ludi{
+.popular-ludi {
     margin-bottom: 65px;
 }
 
-.person-info{
+.person-info {
     margin-left: 36.61px;
 }
 
-.all-person-info{
+.all-person-info {
     position: relative;
     top: -444px;
     z-index: 1;
 }
 
-.list{
+.list {
     margin-top: -410px;
 }
 
-.latest-news-header h2{
+.latest-news-header h2 {
     font-size: 65px;
     font-weight: 900;
     line-height: 82.81px;
@@ -450,20 +454,20 @@ header {
     width: 10%;
 }
 
-.latest-news-header{
+.latest-news-header {
     margin-bottom: 79px;
 }
 
-.latest-news{
+.latest-news {
     margin-top: -430px;
 }
 
-.kart-small img{
+.kart-small img {
     width: 254px;
     height: 182px;
 }
 
-.all-kart-small{
+.all-kart-small {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -471,7 +475,7 @@ header {
     height: 785px;
 }
 
-.kart-small2 button{
+.kart-small2 button {
     width: 180px;
     height: 53px;
     border-radius: 10px;
@@ -479,28 +483,29 @@ header {
     background: transparent;
 }
 
-.counters-and-date{
+.counters-and-date {
     display: flex;
 }
 
-.counters-and-date div{
+.counters-and-date div {
     margin-left: 15px;
     display: flex;
 }
 
-.counters-and-date div p{
+.counters-and-date div p {
     margin-left: 7px;
 }
 
-.counters-and-date div img{
+.counters-and-date div img {
     position: static;
 }
 
-.date{
+.date {
     margin: 0 !important;
 }
 
-.kart-big1 img, .kart-small img{
+.kart-big1 img,
+.kart-small img {
     border-radius: 10px;
 }
 
@@ -515,14 +520,14 @@ header {
 
 }
 
-.kart-big1{
+.kart-big1 {
     width: 80%;
     margin-right: 16px;
     height: 800px;
 }
 
 
-.name-and-desc-big{
+.name-and-desc-big {
     position: relative;
     top: 500px;
 }
@@ -533,39 +538,39 @@ header {
 }
 
 
-.name-and-desc-big h2{
+.name-and-desc-big h2 {
     font-size: 45px;
     font-weight: 900;
     line-height: 57.33px;
     margin-bottom: 16px;
 }
 
-.name-and-desc-big p{
+.name-and-desc-big p {
     font-size: 20px;
     font-weight: 500;
-    line-height: 34.04px;   
+    line-height: 34.04px;
 }
 
-.big-img{
+.big-img {
     position: absolute;
     width: 1159px;
     height: 790px;
 }
 
-.info{
+.info {
     position: relative;
     width: 906px;
     padding: 37px 0 0 32px;
     top: -10px;
 }
 
-.name-and-desc{
+.name-and-desc {
     font-size: 18px;
     font-weight: 900;
     line-height: 22.93px;
 }
 
-.counters-and-date-small{
+.counters-and-date-small {
     font-size: 15px;
     font-weight: 700;
     line-height: 28.68px;
@@ -573,97 +578,115 @@ header {
     bottom: 75px;
 }
 
-.kart-small{
+.kart-small {
     margin-bottom: 40px;
     transition: 0.2s;
 }
 
-.info2{
+.info2 {
     position: relative;
     margin-top: -100px;
     width: 225px;
     margin-left: 18px;
 }
 
-.kart-small button{
+.kart-small button {
     display: none;
 }
 
-.kart-small:hover{
+.kart-small:hover {
     opacity: 50%;
 }
 
-.kart-small4 .name-and-desc{
+.kart-small4 .name-and-desc {
     position: relative;
     top: 20px;
 }
 
-.swiper-scrollbar.swiper-scrollbar-horizontal{bottom: 0; height: 40px;}
-.swiper-scrollbar-drag{background: none;}
-.swiper-scrollbar-drag:after{content: ""; width: 40px; height: 40px; border-radius: 50%; background: blue; position: absolute; top: 0; left: 50%; margin: 0 0 0 -20px;}
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    bottom: 0;
+    height: 40px;
+}
 
-footer{
+.swiper-scrollbar-drag {
+    background: none;
+}
+
+.swiper-scrollbar-drag:after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: blue;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -20px;
+}
+
+footer {
     background: #151526;
     padding-top: 49px;
 }
 
-.wanting-innovations-header{
+.wanting-innovations-header {
     margin-bottom: 70px;
-    
+
 }
-.kart4 .film-name{
+
+.kart4 .film-name {
     margin-top: -70px;
 }
 
-.kart4 img{
+.kart4 img {
     border-radius: 10px;
     margin-bottom: 14px;
 }
 
-.kass-sbory-header{
+.kass-sbory-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 105px;
 }
 
-.kass-sbory-header p{
+.kass-sbory-header p {
     font-size: 20px;
     font-weight: 500;
     line-height: 24.14px;
 }
 
-.unique-styles3{
+.unique-styles3 {
     width: 340px;
 }
 
-.kart5{
+.kart5 {
     width: 256px;
     height: 141.2px;
     display: flex;
     align-items: center;
 }
 
-.kass-sbory-main{
+.kass-sbory-main {
     display: flex;
     margin-top: 62px;
 }
 
-.kart5 img{
+.kart5 img {
     width: 95.7px;
     height: 141.2px;
     border-radius: 5px;
     margin-right: 11.3px;
 }
 
-.film-name2{
+.film-name2 {
     font-size: 18px;
     font-weight: 700;
     line-height: 22.3px;
     margin-bottom: 11px;
 }
 
-.film-summa-sbora{
+.film-summa-sbora {
     font-size: 15px;
     font-weight: 500;
     line-height: 18.11px;
@@ -671,29 +694,29 @@ footer{
     margin-bottom: 4px;
 }
 
-.film-summa-sbora-for-time{
+.film-summa-sbora-for-time {
     font-size: 14px;
     font-weight: 500;
-    line-height: 16.9px; 
-    color: #FFFFFF69;  
+    line-height: 16.9px;
+    color: #FFFFFF69;
 }
 
-.subscribe{
+.subscribe {
     background-image: url(./img/svg/Фон.svg);
     max-width: 1428px;
     height: 548px;
     margin-top: 95.8px;
 }
 
-.subscribe h2{
+.subscribe h2 {
     font-size: 50px;
     font-weight: 900;
     line-height: 63.7px;
     text-align: center;
-    margin-bottom: 26px;    
+    margin-bottom: 26px;
 }
 
-.subscribe p{
+.subscribe p {
     font-size: 22px;
     font-weight: 500;
     line-height: 30.84px;
@@ -702,11 +725,11 @@ footer{
     margin: 0 auto;
 }
 
-.subscribe img{
+.subscribe img {
     margin: 76px 643px 53px 649px;
 }
 
-.idontknow{
+.idontknow {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -714,7 +737,7 @@ footer{
     margin-top: 34px;
 }
 
-input[type = "email"]{
+input[type="email"] {
     color: black;
     width: 425px;
     height: 71px;
@@ -723,18 +746,18 @@ input[type = "email"]{
     padding-left: 30px;
 }
 
-input[type = "email"]{
+input[type="email"] {
     outline: none;
 }
 
-input[type = "email"]::placeholder{
+input[type="email"]::placeholder {
     font-size: 17px;
     font-weight: 400;
     line-height: 28.31px;
     position: relative;
 }
 
-input[type = "submit"]{
+input[type="submit"] {
     width: 182px;
     height: 71px;
     border-radius: 10px;
@@ -745,13 +768,13 @@ input[type = "submit"]{
     cursor: pointer;
 }
 
-.privacy-policy p{
+.privacy-policy p {
     font-size: 17px;
     font-weight: 400;
     line-height: 23.83px;
 }
 
-.privacy-policy{
+.privacy-policy {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -760,7 +783,7 @@ input[type = "submit"]{
     margin-top: 22px;
 }
 
-.privacy-policy-link{
+.privacy-policy-link {
     font-size: 17px;
     font-weight: 400;
     line-height: 23.83px;
@@ -769,36 +792,36 @@ input[type = "submit"]{
     color: #f2f60f;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     accent-color: #F2F60F;
 }
 
-.footer{
+.footer {
     text-align: center;
     margin-top: 61px;
 }
 
-.footer-socials{
+.footer-socials {
     margin-bottom: 34px;
     cursor: pointer;
 }
 
-.footer-links a{
+.footer-links a {
     margin-right: 54px;
     font-size: 17px;
     font-weight: 700;
     line-height: 21.06px;
 }
 
-.footer-links{
+.footer-links {
     margin-bottom: 41.38px;
 }
 
-.latest-link{
+.latest-link {
     margin: 0 !important;
 }
 
-.other-info p{
+.other-info p {
     font-size: 15px;
     font-weight: 400;
     line-height: 17.85px;
@@ -806,7 +829,7 @@ input[type="checkbox"]{
     margin-bottom: 26.05px;
 }
 
-.other-info a{
+.other-info a {
     font-size: 15px;
     font-weight: 400;
     line-height: 17.85px;
@@ -814,50 +837,114 @@ input[type="checkbox"]{
     color: #E3E6F0B8;
 }
 
-.other-info{
+.other-info {
     padding-bottom: 49.22px;
 }
 
-*{
+* {
     /* border: 1px solid yellow; */
 }
 
-@media(max-width: 1420px){
-.kart img{
-    width: 202.29px;
-    height: 286.43px;
+.signin {
+    background-color: #191E2E;
+    width: 815px;
+    height: 562px;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: signinWindowAnim;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    display: none;
 }
 
+.signin-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
 
-/* Для экранов с шириной до 768px */
-@media (max-width: 768px) {
-    .wanting-innovations-header {
-      flex-direction: column;
+.signin-content form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-content h2 {    
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50.2px;
+    color: white;
+    margin-bottom: 27px;
+}
+
+.signin-content input[type="text"], .signin-content input[type="password"] {
+    width: 394px;
+    height: 67px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF99;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28.31px;
+    padding-left: 26px;
+    background: #1E2538;
+    margin: 7px 0;
+}
+
+.signin-content input[type="text"], .signin-content input[type="password"]:focus {
+    outline: none;
+    color: white;
+}
+
+.signin-content input[type = "submit"] {
+    width: 422px;
+    height: 55px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-top: 18px;
+    margin-left: 0px;
+}
+
+.signin-content input[type="submit"]:focus {
+    outline: none;
+}
+
+.signin-content a {
+    width: 422px;
+    border-radius: 10px;
+    background: #1E2538;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28.31px;
+    padding: 13px 0 14px 0;
+    text-align: center;
+    margin: 14px 0 16px 0;
+}
+
+.remember-password{
+    
+}
+
+
+
+
+
+
+@keyframes signinWindowAnim {
+    0% {
+        opacity: 0;
     }
-    .wanting-innovations-header h2 {
-      font-size: 24px;
+    100% {
+        opacity: 1;
     }
-    .kart4 {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-    .kart4 img {
-      width: 100%;
-      height: auto;
-    }
-  }
-  
-  /* Для экранов с шириной до 480px */
-  @media (max-width: 480px) {
-    .wanting-innovations-header h2 {
-      font-size: 18px;
-    }
-    .kart4 {
-      margin-bottom: 10px;
-    }
-    .kart4 img {
-      width: 100%;
-      height: auto;
-    }
-  }
+}
+
+@media(max-width: 1420px) {}
