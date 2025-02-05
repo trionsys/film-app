@@ -43,7 +43,30 @@ dislikes.addEventListener("click", function(){
 })
 
 let signinbutton = document.querySelector(".header-login")
+let body = document.body
 let signin = document.querySelector(".signin")
+// signinbutton.addEventListener("click", function(){
+//     signin.style.display = "block"
+//     signin.classList.toggle("showsignin")
+// })
+let closebutton = document.querySelector(".signin-close-button")
+
 signinbutton.addEventListener("click", function(){
     signin.style.display = "block"
+    signin.classList.toggle("showsignin")
+    signin.classList.remove("hidesignin")
+    closebutton.addEventListener("click", function(){
+        // signin.style.display = "none"
+        signin.style.display = "block"
+        signin.classList.remove("showsignin")
+        // signin.classList.toggle("showsignin")
+        signin.classList.add("hidesignin")
+    })
 })
+
+// closebutton.addEventListener("click", function(){
+//     // signin.style.display = "none"
+//     signin.classList.remove("showsignin")
+//     // signin.classList.toggle("showsignin")
+//     signin.classList.toggle("hidesignin")
+// })
