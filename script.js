@@ -10,17 +10,17 @@ for (let i of rating) {
 }
 
 let kartoffilm2 = document.querySelectorAll(".kart")
-for(let i of kartoffilm2){
+for (let i of kartoffilm2) {
 
 }
 
 let button = document.getElementById("button")
 let nowkinomain = document.querySelector(".now-kino-main")
-button.addEventListener("click", function(){
-    if(button.textContent == "Все новинки"){
+button.addEventListener("click", function () {
+    if (button.textContent == "Все новинки") {
         button.textContent = "Скрыть"
         nowkinomain.style.height = "2185px"
-    }else{
+    } else {
         nowkinomain.style.height = "1105px"
         button.textContent = "Все новинки"
     }
@@ -32,12 +32,12 @@ let likescounter = document.getElementById("likescounter")
 let dislikescounter = document.getElementById("dislikescounter")
 let likeimg = document.getElementById("likeimg")
 let dislikeimg = document.getElementById("dislikeimg")
-likes.addEventListener("click", function(){
+likes.addEventListener("click", function () {
     likescounter.textContent = Number(likescounter.textContent) + 1
     likeimg.style.filter = "invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%)"
 })
 
-dislikes.addEventListener("click", function(){
+dislikes.addEventListener("click", function () {
     dislikescounter.textContent = Number(dislikescounter.textContent) + 1
     dislikeimg.style.filter = "brightness(0) saturate(100%) invert(24%) sepia(88%) saturate(7450%) hue-rotate(357deg) brightness(97%) contrast(119%)"
 })
@@ -45,28 +45,21 @@ dislikes.addEventListener("click", function(){
 let signinbutton = document.querySelector(".header-login")
 let body = document.body
 let signin = document.querySelector(".signin")
-// signinbutton.addEventListener("click", function(){
-//     signin.style.display = "block"
-//     signin.classList.toggle("showsignin")
-// })
 let closebutton = document.querySelector(".signin-close-button")
-
+let test = 'block';
 signinbutton.addEventListener("click", function(){
     signin.style.display = "block"
     signin.classList.toggle("showsignin")
     signin.classList.remove("hidesignin")
     closebutton.addEventListener("click", function(){
-        // signin.style.display = "none"
-        signin.style.display = "block"
         signin.classList.remove("showsignin")
-        // signin.classList.toggle("showsignin")
         signin.classList.add("hidesignin")
+        let interval = setInterval(function(){
+            if (getComputedStyle(signin).opacity == 0){
+                clearInterval(interval)
+                signin.style.display = "none"
+            }
+        }, 100)
+        // signin.style.display = test
     })
 })
-
-// closebutton.addEventListener("click", function(){
-//     // signin.style.display = "none"
-//     signin.classList.remove("showsignin")
-//     // signin.classList.toggle("showsignin")
-//     signin.classList.toggle("hidesignin")
-// })
