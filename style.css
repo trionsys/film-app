@@ -968,7 +968,7 @@ input[type="checkbox"] {
 }
 
 .signin-content img {
-    cursor: pointer;
+    /* cursor: pointer; */
     margin-top: -20px;
 }
 
