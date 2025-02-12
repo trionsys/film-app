@@ -46,20 +46,38 @@ let signinbutton = document.querySelector(".header-login")
 let body = document.body
 let signin = document.querySelector(".signin")
 let closebutton = document.querySelector(".signin-close-button")
-let test = 'block';
-signinbutton.addEventListener("click", function(){
+signinbutton.addEventListener("click", function () {
     signin.style.display = "block"
     signin.classList.toggle("showsignin")
     signin.classList.remove("hidesignin")
-    closebutton.addEventListener("click", function(){
+    closebutton.addEventListener("click", function () {
         signin.classList.remove("showsignin")
         signin.classList.add("hidesignin")
-        let interval = setInterval(function(){
-            if (getComputedStyle(signin).opacity == 0){
+        let interval = setInterval(function () {
+            if (getComputedStyle(signin).opacity == 0) {
                 clearInterval(interval)
                 signin.style.display = "none"
             }
         }, 100)
         // signin.style.display = test
+    })
+})
+// closebutton
+let privacypolicylink = document.querySelector(".other-info button")
+let privacypolicywindow = document.querySelector(".privacy-policy-window")
+let closebutton2 = document.querySelector(".signin-close-button2")
+privacypolicylink.addEventListener("click", function () {
+    privacypolicywindow.style.display = "block"
+    privacypolicywindow.classList.toggle("showsignin")
+    privacypolicywindow.classList.remove("hidesignin")
+    closebutton2.addEventListener("click", function () {
+        privacypolicywindow.classList.remove("showsignin")
+        privacypolicywindow.classList.add("hidesignin")
+        let interval = setInterval(function () {
+            if (getComputedStyle(privacypolicywindow).opacity == 0) {
+                clearInterval(interval)
+                privacypolicywindow.style.display = "none"
+            }
+        }, 100)
     })
 })
