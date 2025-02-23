@@ -19,10 +19,13 @@ let nowkinomain = document.querySelector(".now-kino-main")
 button.addEventListener("click", function () {
     if (button.textContent == "Все новинки") {
         button.textContent = "Скрыть"
-        nowkinomain.style.height = "2185px"
+        nowkinomain.classList.add("showallfilms")
+        nowkinomain.classList.remove("hideallfilms")
     } else {
-        nowkinomain.style.height = "1105px"
+        nowkinomain.classList.remove("showallfilms")
+        nowkinomain.classList.add("hideallfilms")
         button.textContent = "Все новинки"
+        
     }
 })
 

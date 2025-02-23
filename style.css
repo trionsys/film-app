@@ -116,6 +116,41 @@ header {
     overflow: hidden;
 }
 
+.showallfilms {
+    height: 2185px;
+    position: relative;
+    animation-name: showallfilms;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+
+.hideallfilms {
+    height: 1105px;
+    position: relative;
+    animation-name: hideallfilms;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes showallfilms {
+    from {
+        height: 1105px;
+    }
+    to {
+        height: 2185px;
+    }
+}
+
+
+@keyframes hideallfilms {
+    from {
+        height: 2185px;
+    }
+    to {
+        height: 1105px;
+    }
+}
+
 .header-nav {
     width: 48%;
 }
@@ -1045,5 +1080,7 @@ input[type="checkbox"] {
         opacity: 0;
     }
 }
+
+@keyframes 
 
 @media(max-width: 1420px) {}
