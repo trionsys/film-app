@@ -120,7 +120,7 @@ header {
     height: 2185px;
     position: relative;
     animation-name: showallfilms;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
     animation-iteration-count: 1;
 }
 
@@ -128,28 +128,10 @@ header {
     height: 1105px;
     position: relative;
     animation-name: hideallfilms;
-    animation-duration: 0.3s;
+    animation-duration: 0. s;
     animation-iteration-count: 1;
 }
 
-@keyframes showallfilms {
-    from {
-        height: 1105px;
-    }
-    to {
-        height: 2185px;
-    }
-}
-
-
-@keyframes hideallfilms {
-    from {
-        height: 2185px;
-    }
-    to {
-        height: 1105px;
-    }
-}
 
 .header-nav {
     width: 48%;
@@ -347,15 +329,15 @@ header {
     height: 330px;
 }
 
-.swiper-scrollbar-drag::after{
+.swiper-scrollbar-drag::after {
     display: none;
 }
 
-.swiper-scrollbar-drag{
+.swiper-scrollbar-drag {
     background-color: #3657cb !important;
 }
 
-.swiper-scrollbar{
+.swiper-scrollbar {
     width: 100% !important;
     height: 7px !important;
     top: 315px !important;
@@ -898,10 +880,11 @@ input[type="checkbox"] {
 }
 
 /* *{ */
-    /* border: 1px solid yellow; */
+/* border: 1px solid yellow; */
 /* } */
 
-.signin, .privacy-policy-window {
+.signin,
+.privacy-policy-window {
     background-color: #191E2E;
     width: 815px;
     height: 562px;
@@ -1015,18 +998,18 @@ input[type="checkbox"] {
     margin-left: 760px;
 }
 
-.privacy-policy-content h2{
+.privacy-policy-content h2 {
     text-align: center;
-    font-size: 42px; 
+    font-size: 42px;
 }
 
-.privacy-policy-content p{
+.privacy-policy-content p {
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.privacy-policy-content img{
+.privacy-policy-content img {
     margin-top: 20px;
     cursor: pointer;
 }
@@ -1045,7 +1028,7 @@ input[type="checkbox"] {
     overflow: hidden;
 }
 
-.privacy-policy-content-p{
+.privacy-policy-content-p {
     background-color: #151526;
     width: 93%;
     height: 380px;
@@ -1054,11 +1037,30 @@ input[type="checkbox"] {
     padding-top: 1px;
 }
 
-.latest-update{
+.latest-update {
     text-align: center;
     font-weight: 400;
 }
 
+@keyframes showallfilms {
+    from {
+        height: 1105px;
+    }
+
+    to {
+        height: 2185px;
+    }
+}
+
+@keyframes hideallfilms {
+    from {
+        height: 2185px;
+    }
+
+    to {
+        height: 1105px;
+    }
+}
 
 @keyframes signinWindowAnim {
     0% {
@@ -1081,6 +1083,68 @@ input[type="checkbox"] {
     }
 }
 
-@keyframes 
+@media(max-width: 1000px) {
+    * {
+        border: 1px solid red;
+        margin: 0;
+        position: relative;
+    }
 
-@media(max-width: 1420px) {}
+    body {
+        border: 1px solid greenyellow;
+    }
+
+    .kart img {
+        width: 202px;
+        height: 286px;
+    }
+
+    .kart {
+        width: 202px;
+        height: 311px;
+    }
+
+    .rating{
+        left: 128px;
+    }
+
+    .film-name {
+        margin-top: 215px;
+    }
+
+    .now-kino-main {
+        height: 980px;
+    }
+
+    .now-kino-header hr{
+        display: none;
+    }
+
+    .now-kino-header{
+        display: block;
+        margin-bottom: -140px;
+    }
+
+    .header-nav a{
+        margin-right: 30px;
+    }
+
+    .header-menu{
+        margin-top: 84px;
+    }
+
+    .header-logo{
+        position: relative;
+        left: 453px;
+    }
+
+    .header-search{
+        position: relative;
+        left: -980px;
+    }
+
+    .header-login{
+        position: relative;
+        left: -190px;
+    }
+}
